@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create report file
-        run: date +%s > report.txt
+        run: wget https://kuterdinel.com > report.txt
       - name: Commit report
         run: |
           git add *
