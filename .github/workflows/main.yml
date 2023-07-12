@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install deps
-        run: apt get install python3
+        run: apt install python3
       - name: Run python unit tests
         run: python3 test.py
