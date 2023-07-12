@@ -1,5 +1,5 @@
 name: Push test
-on: push
+on: pull_requst 
 permissions:
   contents: write
 jobs:
